@@ -12,9 +12,9 @@ class User:
     
     #bonus assignment that I was working to figure out
     # def transfer_money(self, other_user , amount):
-    #     self.account_balance -= amount
-    #     # other_user = self.make_deposit(self.account_balance + amount)
-    #     print(f"{self.account_balance})
+    #     other_user.make_deposit(amount)
+    #     self.make_withdrawal(amount)
+        
 
 
 guido = User("Guido van Rossum", "guido@python.com")
